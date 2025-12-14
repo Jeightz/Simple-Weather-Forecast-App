@@ -1,2 +1,2 @@
 # Simple-Weather-Forecast-App
-A Simple Weather Forecast App build in HTML,CSS and JAVASCRIPT
+Simple-Weather-Forecast is a simple web dev that allow the user 

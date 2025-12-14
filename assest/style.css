@@ -2,9 +2,11 @@
   --font-family: var(--font-family)
   
 }
+
+
 .container{
   width: 1000px;
-  height: 450px;
+  height: auto;
   background-color: white;
   padding: 50px;
   margin: 30px;
@@ -37,11 +39,13 @@ body{
   transition: border-color 0.5s ease;
   font-family: var(--font-family);
 }
+
+
 #parent-container #weather .input:hover {
   border-color:blue;
 }
 #parent-container #weather #btnseeweather {
-  margin : auto;
+  margin : 20px;
   padding :20px;
   width: 300px;
   border: 1px solid black;
@@ -58,3 +62,36 @@ body{
   background-color: blue;
 }
 
+#parent-container #weather #btnseeweather:hover {
+  background-color: blue;
+}
+#parent-container #weather #resultbox{
+  width: 600px;
+  height: 300px;
+  padding: 20px;
+  margin-top: 20px;
+
+  background-color:white;
+
+  border : 1px solid black;
+  border-radius: 30px;
+  
+  flex-direction: column;
+  align-items: center;
+
+}
+.hidden{
+  display: none;
+}
+#wth {
+  text-align: center;
+ font-weight: bold;
+ font-size: 30px;
+}
+#resultholder{
+font-weight: bold;
+color:blue;
+text-align: center;
+font-size: 100px;
+margin: 10px 0;
+}
